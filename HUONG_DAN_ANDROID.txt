@@ -1,0 +1,32 @@
+LC79 ANDROID MOBILE
+===================
+
+CACH 1 - CHAY NGAY TREN ANDROID BANG PYDROID 3
+
+1. Tai va cai Pydroid 3 tu Google Play.
+2. Cai them Pydroid repository plugin / Kivy plugin neu Pydroid yeu cau.
+3. Giai nen file LC79_ANDROID_MOBILE.zip bang ZArchiver.
+4. Mo Pydroid 3, chon file main.py trong thu muc da giai nen.
+5. Trong Terminal cua Pydroid chay:
+
+   pip install requests urllib3 certifi
+
+6. Bam nut Run de mo ung dung.
+
+Luu y: Kivy tren Pydroid co the can plugin rieng. Day la cach chay source, khong phai APK cai dat.
+
+CACH 2 - TAO APK BANG GITHUB ACTIONS TREN DIEN THOAI
+
+1. Dang nhap github.com tren Chrome Android.
+2. Tao repository moi.
+3. Tai tat ca file va thu muc trong goi nay len repository, bao gom thu muc .github.
+4. Mo tab Actions.
+5. Chon Build Android APK, sau do Run workflow.
+6. Khi workflow hoan tat, tai artifact LC79-APK ve may.
+7. Giai nen artifact, bam file .apk de cai dat.
+8. Neu Android chan cai dat, bat quyen Cai ung dung khong ro nguon cho Chrome hoac Files.
+
+THONG TIN
+- Ung dung chi phan tich thong ke, khong tu dat cuoc.
+- Ket qua thong ke khong bao dam du doan dung.
+- Neu API yeu cau access token, mo muc Cai dat trong ung dung de nhap token.
